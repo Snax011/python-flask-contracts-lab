@@ -5,6 +5,11 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '.gitignore_global'
 
+# Python virtualenv and bytecode cache
+__pycache__/
+*.pyc
+.venv/
+
 # Ignore bundler config.
 /.bundle
 
